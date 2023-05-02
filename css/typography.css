@@ -1,0 +1,23 @@
+.font-1-m {
+  font: 600 1rem "Poppins", sans-serif;
+}
+
+.font-1-l {
+  font: 600 2rem "Poppins", sans-serif;
+}
+
+.font-2-m {
+  font: 400 1rem "Open Sans", sans-serif;
+}
+
+.font-2-l {
+  font: 400 2rem "Open Sans", sans-serif;
+}
+
+.font-2-m-b {
+  font: 700 1rem "Open Sans", sans-serif;
+}
+
+.font-2-l-b {
+  font: 700 2rem "Open Sans", sans-serif;
+}

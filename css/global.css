@@ -7,5 +7,24 @@
   --neutral-color-2: hsl(192, 100%, 9%); /* Very Dark Cyan */
   --neutral-color-3: hsl(208, 11%, 55%); /* Grayish Blue */
 
+  /* Introduction color */
+  --introduction-color: #edfbfe;
+
   font-size: 18px;
+}
+
+body,
+h1,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
 }

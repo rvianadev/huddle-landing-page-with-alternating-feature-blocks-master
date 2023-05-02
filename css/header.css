@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 80px;
+}
+
+.header a {
+  padding: 15px 60px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  color: #000100;
+  box-shadow: 2px 2px 2px #000100;
+  font-size: 0.88889rem;
+}
