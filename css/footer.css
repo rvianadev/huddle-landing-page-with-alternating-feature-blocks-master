@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   background: var(--neutral-color-2);
   color: #ffffff;
-  padding: 90px 60px 65px 60px;
+  padding: 90px 91px 65px 91px;
 }
 
 .footer-contacts {
@@ -33,11 +33,35 @@
   padding-top: 5px;
 }
 
-/* .footer-links {
-  display: grid;
-} */
+.footer-links {
+  align-self: center;
+}
 
 .footer-links ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 90px;
+}
+
+.footer-social-medias {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 110px;
+  padding-top: 60px;
+}
+
+.footer-social-medias p {
+  font-size: 0.77778rem;
+}
+
+.social-medias-icons {
+  display: flex;
+}
+
+.social-medias-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
 }
