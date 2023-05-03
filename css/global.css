@@ -30,6 +30,11 @@ img {
   display: block;
 }
 
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }

@@ -8,15 +8,11 @@
 .call-to-action-content {
   display: grid;
   grid-template-columns: 1fr;
-  box-sizing: border-box;
   border-radius: 16px;
   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.04),
     -1px -1px 4px 1px rgba(0, 0, 0, 0.04);
   text-align: center;
-  padding-top: 75px;
-  padding-bottom: 50px;
-  margin-left: 320px;
-  margin-right: 320px;
+  padding: 75px 66px 50px 66px;
   background: #ffffff;
   width: 800px;
 }
