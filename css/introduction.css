@@ -20,6 +20,7 @@
 .introduction-content h1 {
   max-width: 20ch;
   padding-bottom: 40px;
+  font-size: 2.25rem;
 }
 
 .introduction-content p {
@@ -28,10 +29,5 @@
 }
 
 .introduction-content a {
-  display: inline-block;
-  padding: 20px 70px;
-  background: var(--primary-color-1);
-  border-radius: 60px;
-  color: #ffffff;
   font-size: 0.88889rem;
 }
