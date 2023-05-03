@@ -1,13 +1,16 @@
 .introduction-bg {
-  background: var(--introduction-color) url("../images/bg-hero-desktop.svg");
+  background: var(--introduction-color);
+}
+
+.introduction {
+  background: url("../images/bg-hero-desktop.svg");
 }
 
 .introduction-container {
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 80px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 25px 80px 70px 80px;
 }
 
 .introduction-content {

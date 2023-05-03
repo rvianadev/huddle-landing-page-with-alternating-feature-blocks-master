@@ -1,5 +1,9 @@
-.font-1-m {
+.font-1-s {
   font: 600 1rem "Poppins", sans-serif;
+}
+
+.font-1-m {
+  font: 600 1.5rem "Poppins", sans-serif;
 }
 
 .font-1-l {
