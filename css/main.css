@@ -21,8 +21,24 @@
   grid-template-columns: 1fr auto;
 }
 
+.main-item#even img {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.main-item#even .main-item__content {
+  grid-column: 2;
+  grid-row: 1;
+}
+
 .main-item__content {
   align-self: center;
+  padding-right: 160px;
+}
+
+.main-item#even .main-item__content {
+  padding-left: 160px;
+  padding-right: 0px;
 }
 
 .main-item__content h2 {
@@ -31,5 +47,5 @@
 
 .main-item__content p {
   color: var(--neutral-color-3);
-  max-width: 60ch;
+  max-width: 49ch;
 }
