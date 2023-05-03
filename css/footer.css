@@ -37,6 +37,14 @@
   align-self: center;
 }
 
+.footer-links a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+}
+
 .footer-links ul {
   display: grid;
   grid-template-columns: 1fr 1fr;

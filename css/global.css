@@ -1,6 +1,7 @@
 :root {
   /* Primary Color */
   --primary-color-1: hsl(322, 100%, 66%); /* Pink */
+  --primary-color-2: hsl(322, 100%, 80%);
 
   /* Neutral Color */
   --neutral-color-1: hsl(193, 100%, 96%); /* Very Pale Cyan */

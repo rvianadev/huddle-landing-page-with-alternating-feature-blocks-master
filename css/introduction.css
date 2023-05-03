@@ -31,3 +31,7 @@
 .introduction-content a {
   font-size: 0.88889rem;
 }
+
+.introduction-content a:hover {
+  background: var(--primary-color-2);
+}
