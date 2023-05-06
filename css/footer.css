@@ -1,9 +1,12 @@
 .footer-bg {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   background: var(--neutral-color-2);
   color: #ffffff;
   padding: 90px 91px 65px 91px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .footer-contacts {
@@ -34,15 +37,25 @@
 }
 
 .footer-links {
+  display: flex;
+  justify-content: center;
   align-self: center;
 }
 
+.footer-links a {
+  display: inline-block;
+}
 .footer-links a::after {
   content: "";
   display: block;
-  width: 100%;
+  width: 0px;
   height: 2px;
   background: #ffffff;
+  transition: 0.3s;
+}
+
+.footer-links a:hover::after {
+  width: 100%;
 }
 
 .footer-links ul {
@@ -68,8 +81,12 @@
   display: flex;
 }
 
-.social-medias-icons img {
+.social-medias-icons svg {
   width: 30px;
   height: 30px;
   margin-right: 20px;
+}
+
+.social-medias-icons svg:hover path {
+  fill: var(--primary-color-1);
 }
