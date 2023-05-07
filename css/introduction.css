@@ -35,3 +35,53 @@
 .introduction-content a:hover {
   background: var(--primary-color-2);
 }
+
+@media (max-width: 1440px) {
+  .introduction-container {
+    column-gap: 40px;
+  }
+
+  .introduction-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introduction-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 100px 50px 70px 50px;
+  }
+
+  .introduction-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction-content h1 {
+    padding-bottom: 70px;
+  }
+
+  .introduction-content p {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    max-width: 33ch;
+    padding-bottom: 65px;
+  }
+
+  .introduction-content a {
+    margin-bottom: 110px;
+  }
+
+  .introduction-content img {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 415px) {
+  .introduction-content a {
+    font-size: 0.7778rem;
+    padding: 15px 60px;
+  }
+}

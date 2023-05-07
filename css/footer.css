@@ -7,6 +7,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
 }
 
 .footer-contacts {
@@ -89,4 +90,43 @@
 
 .social-medias-icons svg:hover path {
   fill: var(--primary-color-1);
+}
+
+@media (max-width: 1200px) {
+  .footer-bg {
+    font-size: 0.8889rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-contacts {
+    padding-bottom: 120px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-links ul {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-social-medias {
+    align-items: center;
+    padding: 100px 30px 55px 30px;
+  }
+
+  .social-medias-icons {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 415px) {
+  .footer-social-medias {
+    padding: 100px 0px 55px 0px;
+  }
 }
